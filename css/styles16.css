@@ -1,0 +1,22 @@
+/* Aplicando imagem de fundo */
+body {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FClub_de_Regatas_Vasco_da_Gama&psig=AOvVaw0J7GxrXCH122OOBc8E5ZOA&ust=1742318170066000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDp7Y7PkYwDFQAAAAAdAAAAABAE'); /* URL da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white; /* Deixa o texto branco para melhor contraste */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 1.2em;
+}

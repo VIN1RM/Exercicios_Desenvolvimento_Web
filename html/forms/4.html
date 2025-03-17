@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Checkbox e Radio</title>
+</head>
+<body>
+    <h2>Preferências do Usuário</h2>
+    <form action="#" method="post">
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" id="notificacoes" name="notificacoes">
+            Desejo receber notificações
+        </label>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Escolha seu tipo de conta:</p>
+        <label>
+            <input type="radio" name="tipo_conta" value="basica" required>
+            Básica
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="tipo_conta" value="premium">
+            Premium
+        </label>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

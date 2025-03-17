@@ -1,0 +1,29 @@
+/* Aplicando múltiplas imagens de fundo */
+body {
+    background-image: 
+        url('https://www.calliaweb.co.uk/wp-content/uploads/2015/10/600x400.jpg'), 
+        url('https://www.calliaweb.co.uk/wp-content/uploads/2015/10/450x300.jpg'); /* Duas imagens */
+    background-size: 60%, 30%; /* Diferentes tamanhos para as imagens */
+    background-position: left top, right bottom; /* Diferentes posições para as imagens */
+    background-repeat: no-repeat; /* Não repetir as imagens */
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    height: 100vh; /* Faz o fundo ocupar toda a tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 1.2em;
+}

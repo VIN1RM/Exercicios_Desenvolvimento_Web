@@ -1,0 +1,28 @@
+/* Fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o título */
+h1 {
+    text-align: center;
+    color: #050C9C;
+}
+
+/* Parágrafo alinhado à esquerda */
+.left {
+    text-align: left;
+    color: #3572EF;
+}
+
+/* Parágrafo centralizado */
+.center {
+    text-align: center;
+    color: #3ABEF9;
+}
+
+/* Parágrafo alinhado à direita */
+.right {
+    text-align: right;
+    color: #A7E6FF;
+}

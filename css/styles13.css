@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Aplicando a fonte globalmente */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Definição da fonte para o título */
+h1 {
+    font-weight: 700; /* Negrito */
+    color: #050C9C;
+    text-align: center;
+}
+
+/* Parágrafos com peso normal */
+p {
+    font-weight: 400;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Estilizando a lista */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}

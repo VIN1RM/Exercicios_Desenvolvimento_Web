@@ -1,0 +1,24 @@
+/* Aplicando gradiente de fundo */
+body {
+    background: linear-gradient(to right, #FF5733, #FFC300); /* Gradiente de laranja para amarelo */
+    color: white; /* Texto branco para melhor contraste */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    height: 100vh; /* Faz o fundo ocupar toda a tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 1.2em;
+}

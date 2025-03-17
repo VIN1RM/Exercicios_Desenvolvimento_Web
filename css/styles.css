@@ -1,0 +1,26 @@
+/* Change header color and alignment */
+h1 {
+    color: #3572EF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style paragraph */
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 20px;
+}
+
+/* Style unordered list */
+ul {
+    list-style-type: disc; /* Changes list icon */
+    padding-left: 40px;
+}
+
+/* Style list items */
+li {
+    font-size: 14px;
+    color: #050C9C;
+    margin: 5px 0;
+}
